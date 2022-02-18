@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Task-2</title>
+  </head>
+  <body>
+    <center><h1>GeeksforGeeks Survey Form</h1></center>
+    <br />
+    <form>
+      <label for="name">Name</label>
+      <br />
+      <input class="text-value" type="text" required />
+      <br /><br />
+      <label for="e-mail">E-mail</label>
+      <br />
+      <input class="text-value" type="email" required />
+      <br /><br />
+      <label for="age">Password</label>
+      <br />
+      <input class="text-value" type="password" required/>
+      <br /><br />
+      <label for="age">Age</label>
+      <br />
+      <input class="text-value" type="number" />
+      <br /><br />
+
+
+      <label for="gender">Gender:</label>
+      <div class="radio-gender">
+          <input type="radio">
+          <label for="male">Male</label>
+      </div>
+      <div class="radio-gender">
+        <input type="radio">
+        <label for="female">Female</label>
+      </div>
+      <br>
+      <label for="address">Address</label>
+      <br />
+      <textarea id="textarea" cols="30" rows="3"></textarea>
+      <br /><br />
+
+        <input type="checkbox" checked/>
+        <label for="student">Student</label>
+        <br /><br>
+      <label for="fav-prog-lang">Which is your most favourite programming languages?</label>
+      <select required>
+        <option value="java">Java</option>
+        <option value="javascript" selected>Javascript</option>
+        <option value="python">Python</option>
+        <option value="c#">C#</option>
+      </select>
+      <br /><br />
+
+      <button type="submit">SUBMIT</button>
+      <br /><br />
+      <a href="mailto:faizansayed877@gmail.com" target="blank">E-mail</a>
+      <br>
+      <a href="tel:8779900950" target="blank">Phone-no</a>
+      <br><br>
+
+      <table>
+        <thead>
+            <th colspan="5">5 Most Favourite Programming Languages</th>
+        </thead>
+        <tbody>
+            <tr class="t-row">
+                <td><img  width="35px" src="https://www.pinclipart.com/picdir/middle/539-5397283_java-logo-icon-png-clipart.png" alt="Java-Logo"></td>
+                <td><img width="35px" src="https://www.pinclipart.com/picdir/middle/534-5345877_python-logo-clipart.png" alt="Python-Logo"></td>
+                <td><img width="35px" src="https://img2.gratispng.com/20180802/tpl/kisspng-logo-html5-brand-clip-art-%E6%9D%89-%E5%B1%B1-%E8%89%AF-%E9%9B%84-5b62be01b565d5.334247781533197825743.jpg" alt="HTML-Logo"></td>
+                <td><img width="40px" src="https://clipartcraft.com/images/html5-logo-transparent-4.png" alt="CSS-Logo"></td>
+                <td><img width="35px" src="https://www.kindpng.com/picc/m/171-1718046_javascript-programming-language-logo-hd-png-download.png" alt="JavaScript-Logo"></td>
+            </tr>
+            <tr class="t-row">
+                <td><a href="https://www.java.com/en/" target="blank">Java</a></td>
+                <td><a href="https://www.python.org/" target="blank">Python</a></td>
+                <td><a href="https://html.com/html5/" target="blank">HTML5</a></td>
+                <td><a href="https://css-tricks.com/" target="blank">CSS3</a></td>
+                <td><a href="https://www.javascript.com/" target="blank">JavaScript</a></td>
+            </tr>
+        </tbody>
+      </table>
+    </form>
+  </body>
+</html>
